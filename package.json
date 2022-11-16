@@ -25,9 +25,6 @@
     "url": "https://github.com/ChildhoodCancerSociety/notes/issues"
   },
   "homepage": "https://github.com/ChildhoodCancerSociety/notes#readme",
-  "dependencies": {
-    "@mdx-js/mdx": "^2.1.5"
-  },
   "devDependencies": {
     "chalk": "^5.1.2",
     "hygen": "^6.2.11",
