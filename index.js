@@ -10,7 +10,8 @@ const args = process.argv;
 
 if(args[2] === "--help" || args[2] === "-H") displayHelpText();
 
-const hasDateArg = args.includes("-D") || args.includes
+const hasDateArg = args.includes("-D") || args.includes("--date");
+const hasShowAllStdIo = args.includes("-S") || args.includes("--show-all");
 
 const meetingsDir = fs.readdirSync("meetings", { encoding: 'utf-8' });
 
@@ -22,7 +23,9 @@ try {
   const npxCmd = process.platform === "win32" ? "npx.cmd" : "npx";
   const meeting = meetingDates[0];
   const filePath = `meetings/${meeting.folder}/meeting.mdx`;
-  const mdxProcess = spawn(`${npxCmd}`, ["mdx-deck", filePath]);
+  const options = {};
+  if(hasShowAllStdIo) options.stdio = "inherit";
+  const mdxProcess = spawn(`${npxCmd}`, ["mdx-deck", filePath], options);
 
   let spinner = ora("Compiling");
 
@@ -34,18 +37,27 @@ try {
   mdxProcess.on("spawn", m => {
     console.info("MDX process created!");
     console.info(`Setting up meeting deck for ${ meeting.name } on ${ meeting.date.toLocaleDateString('en-US', { month: "short", day: "2-digit" }) }`);
-    spinner.start();
+    if(!hasShowAllStdIo) spinner.start();
   });
 
-  mdxProcess.stdout.setEncoding("utf-8");
-  mdxProcess.stdout.on("data", data => {
-    if(data.includes("You can now view mdx-deck in the browser")) {
-      spinner.stop();
-      console.info("Initial compilation succeeded! Opening in http://localhost:8000/");
-    } else if (data.includes("success") && data.includes("Building development bundle")) {
-      console.info("Rebuilt successfully" + data.split("Building development bundle")[1]);
-    }
-  });
+  if(mdxProcess.stdout) {
+    mdxProcess.stdout.setEncoding("utf-8");
+    mdxProcess.stdout.on("data", data => {
+      if(data.includes("You can now view mdx-deck in the browser")) {
+        spinner.stop();
+        console.info("Initial compilation succeeded! Opening in http://localhost:8000/");
+      } else if (data.includes("development bundle")) {
+        if(data.includes("success")) {
+          spinner.stop();
+          const time = data.split("development bundle")[1];
+          console.info((data.includes("Re") ? "Re-" : "") + "Built successfully" + time.replace(/\n/gi, ""));
+        } else if(!hasShowAllStdIo) {
+          spinner.text = "Rebuilding...";
+          spinner.start();
+        }
+      }
+    });
+  }
 } catch(e) {
   console.error(e);
 }

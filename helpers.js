@@ -2,14 +2,16 @@ import chalk from "chalk";
 
 export const displayHelpText = () => {
 
-  const createArgHelpText = (cmd, usage, comment) => {
-    return [`
-  ${chalk.yellow(`--${cmd} [${cmd.toUpperCase()}]`)}
-      ex: ${ chalk.blue(`node . --${cmd} ${usage}`) } ${ chalk.bgGrey(`${comment}`) }
-`, `--${cmd}`];
+  const createArgHelpText = (cmd, usage, comment, topLevel) => {
+    const firstCmd = cmd.split(" | ")[0];
+    const helpText = `${topLevel ? `  ${chalk.magenta(topLevel)}\n` : ""}   ${chalk.yellow(`--${cmd} [${firstCmd.toUpperCase()}]`)}
+      ex: ${ chalk.blue(`node . --${firstCmd} ${usage}`) } ${ chalk.bgGrey(`${comment}`) }`
+    return [helpText, `--${cmd}`];
   }
-  const dateArg = createArgHelpText("date", "11-16-22", "will pull up the first meeting from 11-16-22");
-  const helperArgs = [dateArg];
+  const dateArg = createArgHelpText("date | -D", "11-16-22", "will pull up the first meeting from 11-16-22", "[stub, this isnt functional yet]");
+  const showInfoArg = createArgHelpText("show-all | -S", "", "", "Pipes all output from `mdx-deck` to stdout in the existing process");
+
+  const helperArgs = [dateArg, showInfoArg];
 
   const specificArg = process.argv.length > 3;
   if(!specificArg) {
@@ -18,7 +20,8 @@ export const displayHelpText = () => {
   }
   const shown = helperArgs.filter(arg => {
     if(specificArg) {
-      return process.argv.includes(arg[1]);
+      const args = arg[1].split(" | ");
+      return args.some(arg => process.argv.includes(arg)) ;
     }
     return true;
   });
