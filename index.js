@@ -4,6 +4,7 @@ import ora from "ora";
 import chalk from "chalk";
 import { displayHelpText } from "./helpers.js";
 
+
 const isDate = date => (new Date(date) !== "Invalid Date") && !isNaN(new Date(date));
 
 const args = process.argv;
