@@ -72,23 +72,25 @@ import ss from './static/ss.png'
 * why?
   * lots of info, easy to forget or misplace small details
   * no easy way to centralize note-taking around organization
-  * lots of meetings, need to empower PMs and
+    * (that doesnt involve Google Drive)
+  * lots of meetings, need to empower PMs and other team members
 * powered primarily by `mdx-deck`
   * not a good idea :(
     * uses gatsby internally (gross!)
     * would need to rebuild most of the build pipeline or at least change the gatsby parts to figure out relative linking
     * build output is ~400 files and ~8MB (!!!)
   * evaluating `MDXP` as a replacement
-  * any other presentation software (does not have to be node/js based!) is fine
+  * any other presentation software (does not have to be node/web based!) is fine
 
 ---
 # TODO
 
 * find some replacement for `mdx-deck`
-* dev tooling (located in `index.js`)
+* dev tooling + base presentation/ note compilation (located in `index.js`)
 * build tooling
   * does not exist :P
   * run `npx mdx-deck [whatever .mdx file]` and then copy output from repo `public` directory into new 
     * none of this currently works anyway
 * deployment
-  * currently handled via extreme
+  * currently handled via github pages
+  * doesnt even work due to aforementioned relative path issues
