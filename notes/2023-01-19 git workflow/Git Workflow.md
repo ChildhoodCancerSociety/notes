@@ -14,16 +14,16 @@ Just like in GitHub flow, individual contributions are made through simply branc
 ## Creating branches through our flow
 
 In the [`ccs-web` repo](https://github.com/ChildhoodCancerSociety/ccs-web), you can see there are currently 3 branches:
-![[Pasted image 20230118233855.png]]
+![branches.png](branches.png)
 
 The 2nd branch in the `ccs-web` repo, `ibrahim/dev-39-create-project-defaults-and-structure`, is an example of a branch created to accomplish [a specific Linear task](https://linear.app/childhood-cancer-society/issue/DEV-39/create-project-defaults-and-structure):
-![[Pasted image 20230118234538.png]]
+![linear-issue.png](linear-issue.png)
 
 In the upper right hand corner of the task, you can see 3 icons. The rightmost one when hovering over it will tell you that it will copy a git branch name to your clipboard (the keyboard shortcut for this on Windows is `CTRL+SHIFT+A`, not sure on macos):
-![[Pasted image 20230118234953.png]]
+![linear-copy-branch-name.png](linear-copy-branch-name.png)
 
 Doing this simplifies branch conventions and also allows Linear to automatically track the progress of your issue through this branch on GitHub. In order for the latter to work however you must also link Linear to your personal GitHub account:
-![[Pasted image 20230118234812.png]]
+![linear-linked-accts.png](linear-linked-accts.png)
 
 This isn't necessary by any means, but it will definitely make administration a lot easier.
 
@@ -46,10 +46,10 @@ After doing this, local commits on your machine can be pushed to the remote on G
 ## PRs
 
 Once you feel like you've made good progress on your task, you can draft a pull request on GitHub (or in your editor if you have some GitHub plugin):
-![[ccs-web-pr.mp4]]
+![ccs-web-pr.mp4](ccs-web-pr.mp4)
 
 If you've linked your GitHub account, new PRs using a task's branch name from Linear will change that task to "In Progress" automatically and link the PR:
-![[Pasted image 20230119004440.png]]
+![linear-github-link.png](linear-github-link.png)
 
 From here, we can either do a code review async or discuss your PR at the next standup. Once the PR has been approved, we'll merge your branch back into `dev` and we can then delete the branch.
 
