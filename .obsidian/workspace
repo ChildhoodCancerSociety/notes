@@ -1,47 +1,40 @@
 {
   "main": {
-    "id": "2a96d58eff62d654",
+    "id": "fb8f79caa735a4a1",
     "type": "split",
     "children": [
       {
-        "id": "2a57ec8773325788",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c109c393c3eabba1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf"
-              }
-            }
+        "id": "495c78ee0b94ed63",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+            "mode": "source"
           }
-        ]
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9cd545da7a6e8b7e",
+    "id": "5d1f621612319c07",
     "type": "split",
     "children": [
       {
-        "id": "2d40de29993b8752",
+        "id": "7d9130c1e26a477d",
         "type": "tabs",
         "children": [
           {
-            "id": "0e0c406702b65347",
+            "id": "40432ea331517722",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
+              "state": {}
             }
           },
           {
-            "id": "d48141fa029b259d",
+            "id": "52c7822b92728500",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,7 +49,7 @@
             }
           },
           {
-            "id": "78e2a958cc210c61",
+            "id": "37567264f8a9c9a8",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -70,20 +63,20 @@
     "width": 300
   },
   "right": {
-    "id": "2b8b6b3c7cc3c165",
+    "id": "5342df8712efd242",
     "type": "split",
     "children": [
       {
-        "id": "fd2ecbde579bb13a",
+        "id": "8b4e247aba9c13f3",
         "type": "tabs",
         "children": [
           {
-            "id": "db9e40d1df91c3a2",
+            "id": "6ca8b07abbb86fb3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf",
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,19 +88,19 @@
             }
           },
           {
-            "id": "1cae9592f92736d5",
+            "id": "b725bfbe55e6f210",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf",
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d972bf6d3754655a",
+            "id": "869542edc2c4c597",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,12 +111,12 @@
             }
           },
           {
-            "id": "7da277a53ae84f9d",
+            "id": "758e258a97ef2736",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf"
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md"
               }
             }
           }
@@ -134,25 +127,8 @@
     "width": 300,
     "collapsed": true
   },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
-    }
-  },
-  "active": "c109c393c3eabba1",
+  "active": "495c78ee0b94ed63",
   "lastOpenFiles": [
-    "webdev standup 2022-11-09/printout_ future of dev_ ccs.pdf",
-    "webdev standup 2022-12-14/TedwindCSS.pdf",
-    "webdev standup 2022-11-23/meeting.pdf",
-    "webdev standup 2023-01-18/Agenda.md",
-    "webdev standup 2022-11-16/notes.md",
-    "webdev standup 2022-11-16/static/ss.png",
-    "webdev standup 2022-11-16/static/tony-r.jpg",
-    "2023-01-18.md"
+    "notes/2023-01-19 git workflow/Git Workflow.md"
   ]
 }

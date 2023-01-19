@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "2a96d58eff62d654",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a57ec8773325788",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48c6dc749f563392",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9cd545da7a6e8b7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d40de29993b8752",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e0c406702b65347",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d48141fa029b259d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "78e2a958cc210c61",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2b8b6b3c7cc3c165",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd2ecbde579bb13a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db9e40d1df91c3a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1cae9592f92736d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d972bf6d3754655a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7da277a53ae84f9d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "48c6dc749f563392",
+  "lastOpenFiles": [
+    "notes/2023-01-19 git workflow/linear-github-link.png",
+    "notes/2023-01-19 git workflow/linear-copy-branch-name.png",
+    "notes/2023-01-19 git workflow/linear-linked-accts.png",
+    "notes/2023-01-19 git workflow/linear-issue.png",
+    "notes/2023-01-19 git workflow/Git Workflow.md",
+    "notes/2023-01-19 git workflow/ccs-web-pr.mp4",
+    "Pasted.md",
+    "notes/2023-01-19 git workflow/branches.png",
+    "Pasted image 20230118235259.png",
+    "README.md"
+  ]
+}
