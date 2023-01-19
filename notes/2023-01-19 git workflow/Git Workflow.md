@@ -51,7 +51,7 @@ After doing this, local commits on your machine can be pushed to the remote on G
 
 Once you feel like you've made good progress on your task, you can draft a pull request on GitHub (or in your editor if you have some GitHub plugin):
 
-![ccs-web-pr.mp4](ccs-web-pr.mp4)
+![ccs-web-pr.gif](ccs-web-pr.gif)
 
 If you've linked your GitHub account, new PRs using a task's branch name from Linear will change that task to "In Progress" automatically and link the PR:
 
