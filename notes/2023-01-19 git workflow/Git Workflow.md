@@ -21,7 +21,7 @@ The 2nd branch in the `ccs-web` repo, `ibrahim/dev-39-create-project-defaults-an
 
 ![linear-issue.png](linear-issue.png)
 
-In the upper right hand corner of the task, you can see 3 icons. The rightmost one when hovering over it will tell you that it will copy a git branch name to your clipboard (the keyboard shortcut for this on Windows is `CTRL+SHIFT+A`, not sure on macos):
+In the upper right hand corner of the task, you can see 3 icons. The rightmost one when hovering over it will tell you that it will copy a git branch name to your clipboard (the keyboard shortcut for this on Windows is `CTRL+SHIFT+.`, `CMD+SHIFT+.` on macos):
 
 ![linear-copy-branch-name.png](linear-copy-branch-name.png)
 
