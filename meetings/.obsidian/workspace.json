@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f43571e9b5d47b19",
+        "id": "2a57ec8773325788",
         "type": "tabs",
         "children": [
           {
-            "id": "a6dd53b52b8b1989",
+            "id": "c109c393c3eabba1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "webdev standup 2022-11-23/meeting.pdf"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "webdev standup 2022-11-23/meeting.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "webdev standup 2022-11-23/meeting.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "webdev standup 2022-11-23/meeting.pdf"
+              }
             }
           }
         ]
@@ -138,8 +144,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e0c406702b65347",
+  "active": "c109c393c3eabba1",
   "lastOpenFiles": [
+    "webdev standup 2022-11-09/printout_ future of dev_ ccs.pdf",
+    "webdev standup 2022-12-14/TedwindCSS.pdf",
+    "webdev standup 2022-11-23/meeting.pdf",
+    "webdev standup 2023-01-18/Agenda.md",
+    "webdev standup 2022-11-16/notes.md",
+    "webdev standup 2022-11-16/static/ss.png",
+    "webdev standup 2022-11-16/static/tony-r.jpg",
     "2023-01-18.md"
   ]
 }
