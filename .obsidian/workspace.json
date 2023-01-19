@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c109c393c3eabba1",
+            "id": "48c6dc749f563392",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf"
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf",
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf",
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webdev standup 2022-11-23/meeting.pdf"
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md"
               }
             }
           }
@@ -144,15 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c109c393c3eabba1",
+  "active": "48c6dc749f563392",
   "lastOpenFiles": [
-    "webdev standup 2022-11-09/printout_ future of dev_ ccs.pdf",
-    "webdev standup 2022-12-14/TedwindCSS.pdf",
-    "webdev standup 2022-11-23/meeting.pdf",
+    "notes/2023-01-19 git workflow/ccs-web-pr.mp4",
+    "notes/2023-01-19 git workflow/Git Workflow.md",
+    "notes/2023-01-19 git workflow/Pasted image 20230118234953.png",
+    "notes/2023-01-19 git workflow/Pasted image 20230118234812.png",
+    "notes/2023-01-19 git workflow/Pasted image 20230118234538.png",
+    "notes/2023-01-19 git workflow/Pasted image 20230118233855.png",
+    "Pasted image 20230118235259.png",
+    "README.md",
     "webdev standup 2023-01-18/Agenda.md",
-    "webdev standup 2022-11-16/notes.md",
-    "webdev standup 2022-11-16/static/ss.png",
-    "webdev standup 2022-11-16/static/tony-r.jpg",
-    "2023-01-18.md"
+    "Untitled.md"
   ]
 }
