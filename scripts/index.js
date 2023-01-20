@@ -60,7 +60,7 @@ const createLinks = (cwd, pathname, writeFile) => {
           ? link.substring(0, link.length - 3)
           : link;
 
-        return `${branch}[${isMd ? "📝" : " "}${capitalize(
+        return `${branch} [${isMd ? "📝" : ""}${capitalize(
           linkNoExtension
         )}](<${pathname}/${link}>)`;
       })
