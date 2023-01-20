@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c4b3cac76a4f0d8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/2023-01-2X CI-CD/CI + CD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/2023-01-2X CI-CD/CI + CD.md",
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/2023-01-2X CI-CD/CI + CD.md",
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/2023-01-2X CI-CD/CI + CD.md"
+                "file": "notes/2023-01-19 git workflow/Git Workflow.md"
               }
             }
           }
@@ -159,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e0c406702b65347",
+  "active": "48c6dc749f563392",
   "lastOpenFiles": [
-    "notes/2023-01-19 git workflow/Git Workflow.md",
-    "notes/2023-01-19 git workflow/linear-github-link.png",
-    "notes/2023-01-19 git workflow/linear-copy-branch-name.png",
-    "notes/2023-01-19 git workflow/linear-linked-accts.png",
-    "notes/2023-01-19 git workflow/linear-issue.png",
-    "notes/2023-01-19 git workflow/ccs-web-pr.mp4",
-    "Pasted.md",
-    "notes/2023-01-19 git workflow/branches.png",
-    "Pasted image 20230118235259.png",
-    "README.md"
+    "notes/2023-01-19 git workflow/assets/linear-copy-branch-name.png",
+    "notes/2023-01-19 git workflow/assets/branches.png",
+    "meetings/webdev standup 2022-11-16/Notes.md",
+    "meetings/webdev standup 2022-11-16/static/ss.png",
+    "meetings/webdev standup 2022-11-16/static/tony-r.jpg",
+    "meetings/webdev standup 2022-11-09/Adventure Awaits.pdf",
+    "meetings/webdev standup 2022-11-23/Tedsgiving.pdf",
+    "meetings/webdev standup 2023-01-18/Agenda.md",
+    "2023-01-19.md",
+    "Untitled.canvas"
   ]
 }
