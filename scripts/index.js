@@ -33,18 +33,15 @@ const createLinks = (cwd, pathname, writeFile) => {
   const lstat = lstatSync(filepath);
   if (lstat.isDirectory()) {
     const linkDir = readdirSync(filepath);
-    const hasAssets = linkDir.includes("assets") || linkDir.includes("static");
-    console.info("Reading directory:", pathname, hasAssets ? `-> HAS 🎨assets` : "");
+    console.info("Reading directory:", pathname);
 
     const links = linkDir
       .map((file) => {
         const fileLstat = lstatSync(path.resolve(filepath, file));
         if (fileLstat.isFile()) {
           return file;
-        } else if (fileLstat.isDirectory()) {
-          if (hasAssets) {
-            // TODO: extract potential header image and add to array
-          }
+        } else if (fileLstat.isDirectory() && (file === "assets" || file === "static")) {
+          return `🖼${file}`;
         }
         return null;
       })
@@ -58,7 +55,7 @@ const createLinks = (cwd, pathname, writeFile) => {
 
         return `${branch} [${isMd ? "📝" : ""}${capitalize(
           linkNoExtension
-        )}](<${pathname}/${link}>)`;
+        )}](<${pathname}/${link.includes("🖼") ? link.split("🖼")[1] : link}>)`;
       })
       .join("  \n");
 
