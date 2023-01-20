@@ -53,6 +53,7 @@ const createLinks = (cwd, pathname, writeFile) => {
           ? link.substring(0, link.length - 3)
           : link;
 
+        // TODO: this is ugly. fix this.
         return `${branch} [${isMd ? "📝" : ""}${capitalize(
           linkNoExtension
         )}](<${pathname}/${link.includes("🖼") ? link.split("🖼")[1] : link}>)`;
