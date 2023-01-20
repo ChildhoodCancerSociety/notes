@@ -7,10 +7,7 @@ const path = require("path");
 const capitalize = (str) =>
   str
     .split(" ")
-    .map((s) => {
-      console.log("str", s);
-      return s ? s[0].toUpperCase() + s.substr(1) : s;
-    })
+    .map((s) => (s ? s[0].toUpperCase() + s.substr(1) : s))
     .join(" ");
 
 const readMarkdownFile = async (filename, cwd) => {
@@ -37,7 +34,7 @@ const createLinks = (cwd, pathname, writeFile) => {
   if (lstat.isDirectory()) {
     const linkDir = readdirSync(filepath);
     const hasAssets = linkDir.includes("assets") || linkDir.includes("static");
-    console.info("reading dir", pathname, hasAssets ? `-> HAS 🎨assets` : "");
+    console.info("Reading directory:", pathname, hasAssets ? `-> HAS 🎨assets` : "");
 
     const links = linkDir
       .map((file) => {
@@ -54,7 +51,6 @@ const createLinks = (cwd, pathname, writeFile) => {
       .filter((a) => a)
       .map((link, i, a) => {
         const branch = i === a.length - 1 ? "┗" : "┠";
-        console.log(i, a.length - 1, branch);
         const isMd = link.toLowerCase().endsWith(".md");
         const linkNoExtension = isMd
           ? link.substring(0, link.length - 3)
