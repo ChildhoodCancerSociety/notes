@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ChildhoodCancerSociety/notes/issues"
   },
-  "homepage": "https://github.com/ChildhoodCancerSociety/notes#readme"
+  "homepage": "https://github.com/ChildhoodCancerSociety/notes#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "marked": "^4.2.12"
+  }
 }
