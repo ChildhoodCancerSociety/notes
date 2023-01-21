@@ -8,18 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48c6dc749f563392",
+            "id": "42d306d0bb5c6952",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+                "file": "notes/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a968e128569fab2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/style guide/React Style Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe4d435ce4578469",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/git workflow/Git Workflow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f53258a47d7e654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "685e9e5e8644ca92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "meetings/Meetings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 267.5110321044922
   },
   "right": {
     "id": "2b8b6b3c7cc3c165",
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+                "file": "notes/git workflow/Git Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/2023-01-19 git workflow/Git Workflow.md",
+                "file": "notes/git workflow/Git Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/2023-01-19 git workflow/Git Workflow.md"
+                "file": "notes/git workflow/Git Workflow.md"
               }
             }
           }
@@ -146,17 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48c6dc749f563392",
+  "active": "fe4d435ce4578469",
   "lastOpenFiles": [
-    "notes/2023-01-19 git workflow/linear-github-link.png",
-    "notes/2023-01-19 git workflow/linear-copy-branch-name.png",
-    "notes/2023-01-19 git workflow/linear-linked-accts.png",
-    "notes/2023-01-19 git workflow/linear-issue.png",
-    "notes/2023-01-19 git workflow/Git Workflow.md",
-    "notes/2023-01-19 git workflow/ccs-web-pr.mp4",
-    "Pasted.md",
-    "notes/2023-01-19 git workflow/branches.png",
-    "Pasted image 20230118235259.png",
-    "README.md"
+    "notes/style guide/JS Style Guide.md",
+    "3. Arrays.md",
+    "notes/style guide/React Style Guide.md",
+    "notes/style guide/CSS-in-JS Style Guide.md",
+    "notes/Notes.md",
+    "ci-cd/assets.md",
+    "notes/git workflow/Git Workflow.md",
+    "notes/ci-cd/CI + CD.md",
+    "README.md",
+    "TODO.md"
   ]
 }

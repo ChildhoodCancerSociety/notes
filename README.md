@@ -2,12 +2,15 @@
 
 Meeting notes for the CCS dev team, using mdx/ markdown
 
-Look through existing meetings now [here](/meetings)
-
 ## How to use
 
-coming soon!
+Folders are named in lowercase and .md files are capitalized with the exception of [README.md](README.md) and [TODO](TODO.md). (nobody is enforcing this lol)
 
-## TODO
+### [meetings](meetings/Meetings.md)
+These include weekly Wednesday standups and any ad hoc meetings. Will likely also include notes from office hours in the future.
 
-build node script that converts the meetings folder into proper docs that can be looked through
+### [notes](notes/Notes.md)
+Ad hoc notes on dev group policy (and that's it for now).
+
+### [scripts](scripts/README.md)
+The wheels that make this car move!
