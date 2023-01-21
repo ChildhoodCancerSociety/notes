@@ -1,88 +1,35 @@
 {
   "main": {
-    "id": "2a96d58eff62d654",
+    "id": "0e2aef79de8cb8a8",
     "type": "split",
     "children": [
       {
-        "id": "2a57ec8773325788",
+        "id": "e3afd12fd11e7438",
         "type": "tabs",
         "children": [
           {
-            "id": "42d306d0bb5c6952",
+            "id": "1985bd752e8cc3fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a968e128569fab2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/style guide/React Style Guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe4d435ce4578469",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/git workflow/Git Workflow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f53258a47d7e654",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "685e9e5e8644ca92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "meetings/Meetings.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9cd545da7a6e8b7e",
+    "id": "5503dcb1b5a64872",
     "type": "split",
     "children": [
       {
-        "id": "2d40de29993b8752",
+        "id": "a5ac28ded3c23b39",
         "type": "tabs",
         "children": [
           {
-            "id": "0e0c406702b65347",
+            "id": "e6f8c46a4ed067fd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -92,7 +39,7 @@
             }
           },
           {
-            "id": "d48141fa029b259d",
+            "id": "3f80928f0f38ccf9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -107,7 +54,7 @@
             }
           },
           {
-            "id": "78e2a958cc210c61",
+            "id": "fca90f35016a1a73",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -118,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5110321044922
+    "width": 300
   },
   "right": {
-    "id": "2b8b6b3c7cc3c165",
+    "id": "101b56c5bdadae18",
     "type": "split",
     "children": [
       {
-        "id": "fd2ecbde579bb13a",
+        "id": "ea182d1bf5b2cbab",
         "type": "tabs",
         "children": [
           {
-            "id": "db9e40d1df91c3a2",
+            "id": "c72328d718cd3f34",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/git workflow/Git Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,19 +92,18 @@
             }
           },
           {
-            "id": "1cae9592f92736d5",
+            "id": "ad4834461425a9b3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/git workflow/Git Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d972bf6d3754655a",
+            "id": "22eb0a0caa3c1b73",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -169,13 +114,11 @@
             }
           },
           {
-            "id": "7da277a53ae84f9d",
+            "id": "c364184a6cd44422",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notes/git workflow/Git Workflow.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -195,17 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe4d435ce4578469",
-  "lastOpenFiles": [
-    "notes/style guide/JS Style Guide.md",
-    "3. Arrays.md",
-    "notes/style guide/React Style Guide.md",
-    "notes/style guide/CSS-in-JS Style Guide.md",
-    "notes/Notes.md",
-    "ci-cd/assets.md",
-    "notes/git workflow/Git Workflow.md",
-    "notes/ci-cd/CI + CD.md",
-    "README.md",
-    "TODO.md"
-  ]
+  "active": "1985bd752e8cc3fb",
+  "lastOpenFiles": []
 }
