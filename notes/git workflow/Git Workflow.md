@@ -55,7 +55,7 @@ Once you feel like you've made good progress on your task, you can draft a pull 
 
 If you've linked your GitHub account, new PRs using a task's branch name from Linear will change that task to "In Progress" automatically and link the PR:
 
-![linear-github-link.png](linear-github-link.png)
+![assets/linear-github-link.png](assets/linear-github-link.png)
 
 From here, we can either do a code review async or discuss your PR at the next standup. Once the PR has been approved, we'll merge your branch back into `dev` and we can then delete the branch.
 
