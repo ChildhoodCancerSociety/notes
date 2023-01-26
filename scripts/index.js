@@ -120,20 +120,22 @@ const main = async () => {
     .option(...fileOpt)
     .action(async (args) => {
       const { t } = args;
-      const opts = [
-        { defaultCwd: path.resolve("..", "notes"), defaultFile: "Notes.md" },
-        {
-          defaultCwd: path.resolve("..", "meetings"),
-          defaultFile: "Meetings.md",
-        },
-      ];
+
+      const notesOpts = {
+        defaultCwd: path.resolve("..", "notes"),
+        defaultFile: "Notes.md"
+      };
+      const meetingsOpts = {
+        defaultCwd: path.resolve("..", "meetings"),
+        defaultFile: "Meetings.md",
+      };
 
       if (!t) {
-        await Promise.all(opts.map((opt) => compileStrings(args, opt)));
+        await Promise.all([notesOpts, meetingsOpts].map((opt) => compileStrings(args, opt)));
       } else if (t.includes("note")) {
-        await compileStrings(args, opt[0]);
+        await compileStrings(args, notesOpts);
       } else if (t.includes("meeting")) {
-        await compileStrings(args, opt[1]);
+        await compileStrings(args, meetingsOpts);
       }
     });
 
