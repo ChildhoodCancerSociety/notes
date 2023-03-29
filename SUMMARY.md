@@ -4,16 +4,19 @@
 
 ## 🛠 Dev @CCS <a href="#dev-at-ccs" id="dev-at-ccs"></a>
 
-* [Git Workflow](dev-at-ccs/git-workflow.md)
+* [🕸 Git Workflow](dev-at-ccs/git-workflow.md)
+* [😸 Getting started with GitHub](dev-at-ccs/getting-started-with-github.md)
 
-## 🗒 Ad Hoc Discussions <a href="#ad-hoc" id="ad-hoc"></a>
+## 🗒 Discussions
 
-* [➡ arrow function purity](ad-hoc/arrow-function-purity.md)
-* [📐 text alignment shenanigans](ad-hoc/text-alignment-shenanigans.md)
+* [👾 Discord](discussions/discord/README.md)
+  * [➡ arrow function purity](discussions/discord/arrow-function-purity.md)
+  * [📐 text alignment shenanigans](discussions/discord/text-alignment-shenanigans.md)
 
 ## 👔 Meetings
 
-* [March 29, 2023](meetings/march-29-2023.md)
+* [Weeklies](meetings/weeklies/README.md)
+  * [🤖 March 29, 2023](meetings/weeklies/march-29-2023.md)
 
 ## 🗃 legacy notes
 

@@ -1,4 +1,4 @@
-# Git Workflow
+# 🕸 Git Workflow
 
 ## The `dev` branch
 
