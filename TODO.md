@@ -1,2 +1,0 @@
-- [x] build node script that automatically populates [Meetings](/meetings/Meetings.md) and [Notes](/notes/Notes.md)  
-- [ ] build node script that converts the [Meetings](meetings/Meetings.md) and [Notes](notes/Notes.md) indices and their respective folders into the `/docs` folder that can be served online
