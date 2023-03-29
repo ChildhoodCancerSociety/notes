@@ -1,4 +1,4 @@
-const { readFile, readdirSync, writeFile, lstatSync } = require("fs");
+const { readFile, readdirSync, writeFile, lstatSync, mkdirSync } = require("fs");
 
 const commander = require("commander");
 const { marked } = require("marked");
@@ -101,6 +101,13 @@ ${noteFileContentArray.join("\n\n")}
     }
   });
 };
+
+const createDocsDirIfDne = () => {
+  const docsPath = path.resolve(__dirname, "..", "docs");
+  if(!path.existsSync(docsPath)) {
+    mkdirSync(docsPath);
+  }
+}
 
 const main = async () => {
   const program = commander.program;
