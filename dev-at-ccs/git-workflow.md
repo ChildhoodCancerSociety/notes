@@ -1,4 +1,4 @@
-# Git Workflow @CCS
+# Git Workflow
 
 ## The `dev` branch
 
@@ -16,19 +16,19 @@ Just like in GitHub flow, individual contributions are made through simply branc
 
 In the [`ccs-web` repo](https://github.com/ChildhoodCancerSociety/ccs-web), you can see there are currently 3 branches:
 
-![branches.png](<../../../legacy notes/notes/git workflow/assets/branches.png>)
+![branches.png](<../legacy notes/notes/git workflow/assets/branches.png>)
 
 The 2nd branch in the `ccs-web` repo, `ibrahim/dev-39-create-project-defaults-and-structure`, is an example of a branch created to accomplish [a specific Linear task](https://linear.app/childhood-cancer-society/issue/DEV-39/create-project-defaults-and-structure):
 
-![assets/linear-issue.png](<../../../legacy notes/notes/git workflow/assets/linear-issue.png>)
+![assets/linear-issue.png](<../legacy notes/notes/git workflow/assets/linear-issue.png>)
 
 In the upper right hand corner of the task, you can see 3 icons. The rightmost one when hovering over it will tell you that it will copy a git branch name to your clipboard (the keyboard shortcut for this on Windows is `CTRL+SHIFT+.`, `CMD+SHIFT+.` on macos):
 
-![assets/linear-copy-branch-name.png](<../../../legacy notes/notes/git workflow/assets/linear-copy-branch-name.png>)
+![assets/linear-copy-branch-name.png](<../legacy notes/notes/git workflow/assets/linear-copy-branch-name.png>)
 
 Doing this simplifies branch conventions and also allows Linear to automatically track the progress of your issue through this branch on GitHub. In order for the latter to work however you must also link Linear to your personal GitHub account:
 
-![assets/linear-linked-accts.png](<../../../legacy notes/notes/git workflow/assets/linear-linked-accts.png>)
+![assets/linear-linked-accts.png](<../legacy notes/notes/git workflow/assets/linear-linked-accts.png>)
 
 This isn't necessary by any means, but it will definitely make administration a lot easier.
 
@@ -53,11 +53,11 @@ After doing this, local commits on your machine can be pushed to the remote on G
 
 Once you feel like you've made good progress on your task, you can draft a pull request on GitHub (or in your editor if you have some GitHub plugin):
 
-![assets/ccs-web-pr.gif](<../../../legacy notes/notes/git workflow/assets/ccs-web-pr.gif>)
+![assets/ccs-web-pr.gif](<../legacy notes/notes/git workflow/assets/ccs-web-pr.gif>)
 
 If you've linked your GitHub account, new PRs using a task's branch name from Linear will change that task to "In Progress" automatically and link the PR:
 
-![assets/linear-github-link.png](<../../../legacy notes/notes/git workflow/assets/linear-github-link.png>)
+![assets/linear-github-link.png](<../legacy notes/notes/git workflow/assets/linear-github-link.png>)
 
 From here, we can either do a code review async or discuss your PR at the next standup. Once the PR has been approved, we'll merge your branch back into `dev` and we can then delete the branch.
 

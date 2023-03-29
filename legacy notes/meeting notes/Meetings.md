@@ -6,8 +6,8 @@
 
 ## 📁2022-11-16 standup
 
-┠ [Meeting.mdx](2022-11-16-standup/meeting.md)\
-┠ [📝Notes](2022-11-16-standup/notes.md)\
+┠ [Meeting.mdx](<2022-11-16 standup/meeting.mdx>)\
+┠ [📝Notes](<2022-11-16 standup/Notes.md>)\
 ┗ [🖼static](../../meetings/2022-11-16%20standup/static/)
 
 ## 📁2022-11-23 standup
@@ -20,4 +20,4 @@
 
 ## 📁2023-01-18 standup
 
-┗ [📝Agenda](2023-01-18-standup/agenda.md)
+┗ [📝Agenda](<2023-01-18 standup/Agenda.md>)

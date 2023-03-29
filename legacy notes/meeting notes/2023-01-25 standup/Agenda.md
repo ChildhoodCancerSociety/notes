@@ -28,7 +28,7 @@
 
 ## Git Workflow
 
-going over the document [here](../../notes/git-workflow/git-workflow.md)
+going over the document [here](<../../notes/git workflow/Git Workflow.md>)
 
 ***
 

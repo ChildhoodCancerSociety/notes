@@ -8,7 +8,7 @@
 ## 📁git workflow
 
 ┠ [🖼assets](../../notes/git%20workflow/assets/)\
-┗ [📝Git Workflow](git-workflow/git-workflow.md)
+┗ [📝Git Workflow](<git workflow/Git Workflow.md>)
 
 ## 📁style guide
 

@@ -1,0 +1,2 @@
+# ➡ arrow function purity
+
