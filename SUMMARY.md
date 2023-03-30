@@ -6,17 +6,18 @@
 
 * [🕸 Git Workflow](dev-at-ccs/git-workflow.md)
 * [😸 Getting started with GitHub](dev-at-ccs/getting-started-with-github.md)
+* [🕤 Project Management](dev-at-ccs/project-management.md)
 
 ## 🗒 Discussions
 
 * [👾 Discord](discussions/discord/README.md)
-  * [➡ arrow function purity](discussions/discord/arrow-function-purity.md)
-  * [📐 text alignment shenanigans](discussions/discord/text-alignment-shenanigans.md)
+  * [➡ arrow function purity](ad-hoc/arrow-function-purity.md)
+  * [📐 text alignment shenanigans](ad-hoc/text-alignment-shenanigans.md)
 
 ## 👔 Meetings
 
 * [Weeklies](meetings/weeklies/README.md)
-  * [🤖 March 29, 2023](meetings/weeklies/march-29-2023.md)
+  * [🤖 March 29, 2023](meetings/march-29-2023.md)
 
 ## 🗃 legacy notes
 
