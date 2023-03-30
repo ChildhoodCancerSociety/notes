@@ -6,7 +6,19 @@
 
 * [🕸 Git Workflow](dev-at-ccs/git-workflow.md)
 * [😸 Getting started with GitHub](dev-at-ccs/getting-started-with-github.md)
-* [🕤 Project Management](dev-at-ccs/project-management.md)
+* [💯 Tools](dev-at-ccs/tools/README.md)
+  * [👩💻 Developer Experience](dev-at-ccs/tools/developer-experience.md)
+  * [🕤 Project Management](dev-at-ccs/tools/project-management.md)
+  * [🎨 Design](dev-at-ccs/tools/design.md)
+  * [📚 Documentation](dev-at-ccs/tools/documentation.md)
+
+## 🎴 Projects
+
+* [CCS Web](projects/ccs-web.md)
+* [CCS Web Static](projects/ccs-web-static.md)
+* [ANNIverse](projects/anniverse/README.md)
+  * [ANNI](projects/anniverse/anni.md)
+* [.dev](projects/.dev.md)
 
 ## 🗒 Discussions
 
