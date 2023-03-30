@@ -51,3 +51,7 @@
     * [Git Workflow @CCS](<legacy notes/notes/git workflow/Git Workflow.md>)
   * [style guide](legacy-notes/notes/style-guide/README.md)
     * [Style Guide for ECMAScript](<legacy notes/notes/style guide/Guide.md>)
+
+## 😀 Other
+
+* [Icebreaker Questions](other/icebreaker-questions.md)
