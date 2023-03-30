@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Hello, world!](README.md)
+* [Hello, world!](README.md)
 
 ## 🛠 Dev @CCS <a href="#dev-at-ccs" id="dev-at-ccs"></a>
 
@@ -14,11 +14,11 @@
 
 ## 🎴 Projects
 
-* [⏭ CCS Web](projects/ccs-web.md)
-* [🕚 CCS Web Static](projects/ccs-web-static.md)
-* [🐙 ANNIverse](projects/anniverse/README.md)
-  * [😇 ANNI](projects/anniverse/anni.md)
-* [🦾 .dev](projects/.dev.md)
+* [CCS Web](projects/ccs-web.md)
+* [CCS Web Static](projects/ccs-web-static.md)
+* [ANNIverse](projects/anniverse/README.md)
+  * [ANNI](projects/anniverse/anni.md)
+* [.dev](projects/.dev.md)
 
 ## 🗒 Discussions
 
@@ -28,12 +28,12 @@
 
 ## 👔 Meetings
 
-* [🍠 Weeklies](meetings/weeklies/README.md)
+* [Weeklies](meetings/weeklies/README.md)
   * [🤖 March 29, 2023](meetings/march-29-2023.md)
 
 ## 😀 Other
 
-* [🧊 Icebreaker Questions](other/icebreaker-questions.md)
+* [Icebreaker Questions](other/icebreaker-questions.md)
 
 ## 🗃 legacy notes
 
