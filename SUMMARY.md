@@ -15,7 +15,13 @@
 ## 🎴 Projects
 
 * [CCS Web](projects/ccs-web.md)
-* [CCS Web Static](projects/ccs-web-static.md)
+* [CCS Web Static](projects/ccs-web-static/README.md)
+  * [Documentation](projects/ccs-web-static/documentation/README.md)
+    * [Website Development Guide: CSS Practices and REM Calculation System](projects/ccs-web-static/documentation/website-development-guide-css-practices-and-rem-calculation-system.md)
+    * [11ty Image Management and Optimization Guide](projects/ccs-web-static/documentation/11ty-image-management-and-optimization-guide.md)
+    * [Core Web Vitals & Site Speed Optimization Reference Guide](projects/ccs-web-static/documentation/core-web-vitals-and-site-speed-optimization-reference-guide.md)
+    * [SEO and Page Creation Reference Guide](projects/ccs-web-static/documentation/seo-and-page-creation-reference-guide.md)
+    * [Organized Checklist for Page Creation & Deployment](projects/ccs-web-static/documentation/organized-checklist-for-page-creation-and-deployment.md)
 * [ANNIverse](projects/anniverse/README.md)
   * [ANNI](projects/anniverse/anni.md)
 * [.dev](projects/.dev.md)

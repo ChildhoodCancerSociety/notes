@@ -2,20 +2,20 @@
 
 > January 25, 2023
 
-***
+
 
 ## Google Ads
 
 1. more impressions and clicks!
 2. discuss targeting + audience
 
-***
+
 
 ## Instagram Feed
 
 1. done. I think
 
-***
+
 
 ## Deliverable Discussion
 
@@ -24,13 +24,13 @@
 3. nextjs mental model
 4. work for next week
 
-***
+
 
 ## Git Workflow
 
 going over the document [here](<../../notes/git workflow/Git Workflow.md>)
 
-***
+
 
 TODO
 
