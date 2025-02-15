@@ -2,15 +2,24 @@
 
 * [Hello, world!](README.md)
 
-## 🛠 Dev @CCS <a href="#dev-at-ccs" id="dev-at-ccs"></a>
+## 🛠️ Dev @CCS <a href="#dev-at-ccs" id="dev-at-ccs"></a>
 
-* [🕸 Git Workflow](dev-at-ccs/git-workflow.md)
+* [🕸️ Git Workflow](dev-at-ccs/git-workflow.md)
 * [😸 Getting started with GitHub](dev-at-ccs/getting-started-with-github.md)
 * [💯 Tools](dev-at-ccs/tools/README.md)
-  * [👩💻 Developer Experience](dev-at-ccs/tools/developer-experience.md)
+  * [👩‍💻 Developer Experience](dev-at-ccs/tools/developer-experience.md)
   * [🕤 Project Management](dev-at-ccs/tools/project-management.md)
   * [🎨 Design](dev-at-ccs/tools/design.md)
-  * [📚 Documentation](dev-at-ccs/tools/documentation.md)
+  * [📚 Documentation](dev-at-ccs/tools/documentation/README.md)
+    * [Environment Setup](dev-at-ccs/tools/documentation/environment-setup.md)
+    * [File Structure](dev-at-ccs/tools/documentation/file-structure.md)
+    * [Bot Token](dev-at-ccs/tools/documentation/bot-token.md)
+    * [Git Ignore Notes](dev-at-ccs/tools/documentation/git-ignore-notes.md)
+    * [Bot Main File](dev-at-ccs/tools/documentation/bot-main-file.md)
+    * [Error Messages](dev-at-ccs/tools/documentation/error-messages.md)
+    * [Making a New Feature](dev-at-ccs/tools/documentation/making-a-new-feature.md)
+    * [Getting Data](dev-at-ccs/tools/documentation/getting-data.md)
+    * [Code Testing](dev-at-ccs/tools/documentation/code-testing.md)
 
 ## 🎴 Projects
 
@@ -26,10 +35,10 @@
   * [ANNI](projects/anniverse/anni.md)
 * [.dev](projects/.dev.md)
 
-## 🗒 Discussions
+## 🗒️ Discussions
 
 * [👾 Discord](discussions/discord/README.md)
-  * [➡ arrow function purity](ad-hoc/arrow-function-purity.md)
+  * [➡️ arrow function purity](ad-hoc/arrow-function-purity.md)
   * [📐 text alignment shenanigans](ad-hoc/text-alignment-shenanigans.md)
 
 ## 👔 Meetings
@@ -41,7 +50,7 @@
 
 * [Icebreaker Questions](other/icebreaker-questions.md)
 
-## 🗃 legacy notes
+## 🗃️ legacy notes
 
 * [What is this? 💀](<legacy notes/what.md>)
 * [meeting notes](legacy-notes/meeting-notes/README.md)
