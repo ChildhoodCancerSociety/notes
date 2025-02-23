@@ -1,2 +1,0 @@
-# CCS Web Static
-
